@@ -1,0 +1,13 @@
+M23 Fixed-Point Computational Proofs
+Copyright 2026 Reflexivity, Inc.
+
+This product contains original computational proof software developed by
+Reflexivity, Inc.
+
+The mathematical construction, published equation, and fixed-point
+theorem analyzed here are due to Xiaoyu Huang, Blake Jackson, Kyu-Hwan
+Lee, Bjorn Poonen, Rachel Pries, and Shaowu Zhang. See the repository
+README and THIRD_PARTY_NOTICES.md for citations and dependency notices.
+
+The names and trademarks of Reflexivity, Inc. and third parties are not
+licensed except as required for reasonable attribution.

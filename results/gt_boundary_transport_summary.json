@@ -1,0 +1,23 @@
+{
+  "schema": "m23.fixed-point.gt-boundary-transport-compatibility.v1",
+  "theorem": {
+    "status": "proved",
+    "scope": "every sigma in Gal(Qbar/Q) for the explicit published Q-cover",
+    "identity": "rho_R8(sigma)=pair(w_(sigma^-1))",
+    "level": "permutations of eight ramified points before frame quotient",
+    "consequence": "GT transport of the oriented cut equals Galois transport of the translation-reduced boundary-octic affine-frame torsor",
+    "correlation_consequence": "Phi_T has outer-twisted descent"
+  },
+  "proof": {
+    "specialization": "normalization at the tame rational 2A branch identifies special-fibre points with inertia orbits Galois-equivariantly",
+    "return": "the left descent permutation on marked generic sheets is the right GT frame return evaluated at sigma inverse",
+    "naturality": "affine frames, translation quotient, successor lines, and the explicitly transported-basis correlation are functorial"
+  },
+  "logical_boundary": {
+    "uses_explicit_Q_model": true,
+    "independent_rationality_proof": false,
+    "bare_correlation_fixed": false,
+    "canonical_global_frame": false,
+    "all_abstract_GT_elements": false
+  }
+}

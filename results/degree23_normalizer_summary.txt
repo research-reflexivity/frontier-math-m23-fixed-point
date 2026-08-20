@@ -1,0 +1,5 @@
+schema=m23.fixed-point.degree23-normalizer.v1
+group_order=10200960
+ambient_centralizer_order=1
+ambient_normalizer_order=10200960
+ambient_normalizer_equals_M23=true

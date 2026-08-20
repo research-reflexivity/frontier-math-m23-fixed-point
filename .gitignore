@@ -1,0 +1,11 @@
+.DS_Store
+results/*
+!results/LICENSE
+!results/.gitkeep
+!results/affine_frame_correlation_torsor.tsv
+!results/associator_gate_factorization_summary.txt
+!results/degree23_normalizer_summary.txt
+!results/gt_boundary_transport_proof_obligations.tsv
+!results/gt_boundary_transport_summary.json
+!results/oriented_cut_hurwitz_torsor.tsv
+!results/twin_fano_incidence.tsv

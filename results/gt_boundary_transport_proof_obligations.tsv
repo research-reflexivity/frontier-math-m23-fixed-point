@@ -1,0 +1,10 @@
+step	statement	status	reason
+rational_descent_input	published equation F(T,V) is over Q	input	this theorem explains compatibility; it does not re-prove rationality without the equation
+tame_specialization	specialization identifies special-fibre points with inertia orbits	proved	local normal form T=u^e and Galois functoriality
+generic_return	left descent permutation equals w_(sigma^-1)	proved	GT right transport plus unique regular C-frame return
+octic_transport	rho_R8(sigma)=pair(w_(sigma^-1))	proved	Galois-equivariant specialization restricted to the eight 2-orbits
+frame_transport	translation-reduced frame actions agree	proved	functorial quotient of the full affine action on the roots of R8
+cut_square	GT cut transport commutes with the cut-to-frame arrow	proved	C-equivariance checked on all 2688 elements
+correlation_square	outer-twisted transport preserves Phi_T	proved	the source basis and target affine frame obey the explicit simultaneous-transport equation
+bare_fixed_graph	untwisted rational correlation	false	the theorem is twisted descent and does not trivialize the torsor
+abstract_GT	all elements of the abstract profinite GT group	not_claimed	the arithmetic boundary field carries the actual G_Q action

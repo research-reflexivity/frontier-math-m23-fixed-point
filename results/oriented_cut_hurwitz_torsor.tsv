@@ -1,0 +1,23 @@
+object	invariant	value	status
+correlation_torsor	state_count	168	exact
+correlation_torsor	left_action	free_transitive	PSL3(2)
+correlation_torsor	right_action	free_transitive	PSL3(2)
+correlation_torsor	actions_commute	true	two_regular_actions
+untwisted_descent	fixed_correlation_count	0	impossible
+untwisted_descent	orbit_sizes	[ 28, 42, 42, 56 ]	exact
+oriented_cut_state	position	120	in_168_state_torsor
+oriented_cut_state	untwisted_stabilizer_order	6	exact
+outer_transport	distinct_candidate_cocycles	168	one_per_correlation
+outer_transport	all_land_in_target_PSL3(2)	true	exact
+outer_transport	coboundary_solution_count_for_Phi_T	1	unique
+outer_transport	all_168_circular_solvers_unique	true	nonselection_theorem
+outer_transport	Phi_T_generator_defects	identity	exact
+untwisted_descent	Phi_T_generator_defect_orders	[ 3, 7, 3, 7 ]	exact
+untwisted_descent	Phi_T_defect_group_order	168	exact
+real_hurwitz_edge	lift	branch_reflection_r	independent_input
+real_hurwitz_edge	conjugate_rebuild_equals_transport	true	zero_defect
+real_hurwitz_edge	involutive_return	true	r_squared
+real_hurwitz_edge	changes_marked_twin_chart	true	cT_to_cT^r
+real_hurwitz_edge	bare_graph_fixed	false	orientation_data_required
+finite_audit_scope	global_hurwitz_descent	false	requires_arithmetic_specialization
+PASS_ORIENTED_CUT_HURWITZ_TORSOR

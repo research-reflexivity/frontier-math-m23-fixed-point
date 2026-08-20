@@ -1,0 +1,27 @@
+object	invariant	value	status
+boundary_octic	double_point_count	8	exact
+boundary_octic	affine_monodromy_order	1344	exact
+boundary_octic	translation_group	C2^3	regular
+boundary_octic	nonzero_difference_labels	7_Fano_lines	bijection
+affine_frames	full_frame_count	1344	exact
+affine_frames	translation_quotient_count	168	exact
+affine_frames	quotient_action_order	168	PSL3(2)
+affine_frames	quotient_action	free_transitive	exact
+affine_frames	action_kernel	translation_C2^3	exact
+comparison	correlation_count	168	exact
+comparison	frame_to_correlation	bijection	exact
+comparison	centralizer_equivariant	true	all_2688_elements
+cut_to_frame	oriented_cycle	[ 2, 6, 8 ]	derived_from_x_r_cT_P
+cut_to_frame	successor_line_basis	[ 5, 6, 1 ]	independent_of_Phi_T
+cut_to_frame	frame_class	[ 1, 5, 8, 7 ]	independent_of_Phi_T
+cut_to_frame	centralizer_equivariant	true	all_2688_elements
+cut_to_frame	reconstructed_correlation_equals_Phi_T	true	verified_after_construction
+oriented_cut_state	affine_frame_position	96	located_after_comparison
+oriented_cut_state	normalized_affine_frame	[ 1, 5, 8, 7 ]	exact
+oriented_cut_state	double_point_frame	[ [ 3, 21 ], [ 11, 20 ], [ 14, 17 ], [ 13, 18 ] ]	exact
+oriented_cut_state	line_basis	[ 5, 6, 1 ]	exact
+descent_scope	independent_168_state_target	true	boundary_arithmetic
+descent_scope	canonical_global_section	false	frame_torsor_not_trivialized
+descent_scope	marked_cut_to_frame_arrow	true	finite_Hurwitz_atlas
+descent_scope	decided_by_affine_certificate	false	requires_specialization_theorem
+PASS_AFFINE_FRAME_CORRELATION_TORSOR

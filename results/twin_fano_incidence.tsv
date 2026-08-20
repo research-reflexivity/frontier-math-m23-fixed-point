@@ -1,0 +1,70 @@
+object	invariant	value	status
+twin_incidence	left_degree	3	exact
+twin_incidence	right_degree	3	exact
+twin_incidence	edge_count	21	exact
+twin_incidence	determinant	24	invertible_over_Q_and_Z[1/6]
+twin_incidence	determinant_mod_23	1	invertible_on_the_p23_carrier
+twin_incidence	gram_identity	NN^T=2I+J	exact
+twin_incidence	inverse	(1/2)N^T-(1/6)J	exact
+twin_incidence	frame_equivariant	true	C_to_C^cT
+twin_incidence	label_independent	true	checked_on_S23_generators
+twin_packet_descent	forward_to_backward_switch	true	cT_preserves_point_line_sides
+twin_packet_descent	two_step_return	identity	cT_squared
+twin_packet_descent	cT_closed_on_one_ordered_packet	false	maps_forward_packet_to_backward_packet
+frame_return_action	kernel_2^4	trivial	on_point_line_packet
+frame_return_action	quotient	PSL(3,2)	side_preserving_collineations
+frame_return_action	outer_character	trivial	all_closed_returns_side_preserving
+branch_reflection_return	packet_action	transvection	side_preserving
+point_line_modules	permutation_characters_equal	true	Gassmann_equivalence
+point_line_modules	hom_dimension	2	incidence_and_anti_incidence
+point_line_sets	equivariant_bijection	false	nonconjugate_stabilizers
+integral_defect	smith_normal_form	[1,1,1,1,2,2,6]	coker_N=(C2)^3xC3
+integral_defect	block_smith_normal_form	[1^8,2^4,6^2]	coker_B_2=(C2)^6
+mod2_radical	dimension	6	two_simplex_code_halves
+mod2_radical	side_weight_enumerator	1+7z^4	[7,3,4]_simplex_code
+mod2_radical	nonzero_side_words	7+7	line_complements_and_off_pencils
+mod2_discriminant_linking	zero_pairs	21	exactly_incidence
+mod2_discriminant_linking	half_pairs	28	exactly_anti_incidence
+mod2_radical_carrier	full_image	PSL(3,2):2	point_line_envelope_recovered
+mod2_linking_geometry	automorphism_group_order	336	168_collineations_plus_168_correlations
+marked_phase_square	mod2_radical_realization	true	D8_action_equivariant
+mod3_projective_radical	size	4	numerical_match_only
+mod3_projective_radical	marked_image	C2	not_the_phase_square_D8
+tripod_correlation_packet	compatible_correlations	2	involutive_after_marked_identification
+tripod_correlation_packet	weighted_row_sums	[ 2, 2, 2, 2, 2, 2, 2 ]	bidegree_two
+tripod_correlation_packet	weighted_matrix	[ [ 0, 0, 0, 1, 1, 0, 0 ], [ 0, 0, 0, 0, 0, 0, 2 ], [ 0, 0, 0, 0, 0, 2, 0 ], [ 2, 0, 0, 0, 0, 0, 0 ], [ 0, 1, 1, 0, 0, 0, 0 ], [ 0, 0, 0, 1, 1, 0, 0 ], [ 0, 1, 1, 0, 0, 0, 0 ] ]	exact
+tripod_correlation_packet	reduced_support_edges	11	exact
+tripod_correlation_packet	agreement_sheets	[ 1, 2, 8 ]	exact
+tripod_correlation_packet	agreement_twin_sheets	[ 3, 6, 8 ]	Delta^cT
+tripod_correlation_packet	rank	5	over_Q
+tripod_correlation_packet	smith_diagonal	[ 1, 1, 2, 2, 2, 0, 0 ]	exact
+tripod_correlation_packet	relative_collineation	branch_reflection_r	fixed_flag_(P,Delta)
+tripod_correlation_packet	rational_kernel	minus_one_eigenspace_of_r	dimension_two
+cut_triangle_correlation	original_cut_collinear	false	false_required
+cut_triangle_correlation	twin_cut_collinear	false	false_required
+cut_triangle_correlation	point_plane_isomorphisms_fixing_cut	1	unique
+cut_triangle_correlation	correlation_count	1	unique_opposite_side_rule
+cut_triangle_correlation	map	[ [ 2, [ 5, 6, 8 ] ], [ 3, [ 2, 5, 7 ] ], [ 6, [ 1, 2, 8 ] ], [ 8, [ 2, 6, 23 ] ], [ 12, [ 7, 8, 23 ] ], [ 17, [ 1, 6, 7 ] ], [ 19, [ 1, 5, 23 ] ] ]	exact
+cut_triangle_correlation	selected_arrow	true	2_to_{5,6,8}
+cut_triangle_correlation	order_after_marked_identification	2	involutive
+cut_triangle_correlation	flag_preserving	false	exact
+cut_triangle_correlation	in_compatible_flag_packet	false	exact
+tripod_correlation_packet	individual_maps	[ [ [ 2, [ 2, 5, 7 ] ], [ 3, [ 7, 8, 23 ] ], [ 6, [ 5, 6, 8 ] ], [ 8, [ 1, 2, 8 ] ], [ 12, [ 1, 5, 23 ] ], [ 17, [ 2, 6, 23 ] ], [ 19, [ 1, 6, 7 ] ] ], [ [ 2, [ 2, 6, 23 ] ], [ 3, [ 7, 8, 23 ] ], [ 6, [ 5, 6, 8 ] ], [ 8, [ 1, 2, 8 ] ], [ 12, [ 1, 6, 7 ] ], [ 17, [ 2, 5, 7 ] ], [ 19, [ 1, 5, 23 ] ] ] ]	exact
+oriented_cut_correlation	cut_cycle	[ 2, 6, 8 ]	selected_other_P
+oriented_cut_correlation	candidate_count	1	unique
+oriented_cut_correlation	map	[ [ 2, [ 2, 6, 23 ] ], [ 3, [ 7, 8, 23 ] ], [ 6, [ 5, 6, 8 ] ], [ 8, [ 1, 2, 8 ] ], [ 12, [ 1, 6, 7 ] ], [ 17, [ 2, 5, 7 ] ], [ 19, [ 1, 5, 23 ] ] ]	exact
+oriented_cut_correlation	bidegree	[1,1]	exact
+oriented_cut_correlation	linearization	permutation_matrix	integral_isomorphism
+oriented_cut_correlation	order_after_marked_identification	2	involutive
+oriented_cut_correlation	cut_rotation_count	1	unique_projective_basis_rotation
+oriented_cut_correlation	cut_rotation_order	3	backward_3_cycle
+oriented_cut_correlation	factorization	backward_cut_rotation_then_opposite_side_correlation	exact
+oriented_cut_correlation	flag_preserving	true	P_to_Delta
+oriented_cut_correlation	selected_phase_arrow	true	6_to_{5,6,8}
+oriented_cut_correlation	label_independent	true	checked_on_S23_generators
+oriented_cut_correlation	reversal_compatibility	true	forward_backward_inverse
+marked_tripod_outer_map	degree_one_exists	true	oriented_cut_correlation
+marked_cut	line_phase_row_degrees	[1,0]	not_an_S2_phase_isomorphism
+marked_cut	selected_incidence_arrow	2->{5,6,8}	exact
+incidence_certificate_scope	global_descent	false	requires_transport_theorem
+PASS_TWIN_FANO_INCIDENCE_CORRESPONDENCE
